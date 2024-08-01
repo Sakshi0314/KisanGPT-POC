@@ -24,7 +24,7 @@ def set_bg_image(image_path):
 st.set_page_config(page_title="Smart Farming Practices", layout="wide")
 
 # Load the updated CSV file
-file_path = "smart farming practices.csv"
+file_path = "smart_farming_practices.csv"
 df = pd.read_csv(file_path)
 
 # Define icons for each criteria
